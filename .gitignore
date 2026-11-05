@@ -1,0 +1,7 @@
+# Local toolchain and build output (rebuilt by ./build.sh)
+.tools/
+.build/
+dist/
+bin/
+obj/
+*.user

@@ -1,0 +1,192 @@
+// Built-in question bank. Fields: lang (el/en), cat (language/logic/math), q (question),
+// a (accepted answers; the first one is shown if the child gets it wrong), hint (optional).
+// Capitals, accents (unless strict mode), extra spaces and leading articles are ignored when checking.
+[
+  // ===================== ΕΛΛΗΝΙΚΑ – ΓΛΩΣΣΑ =====================
+  // Πληθυντικός
+  { "lang": "el", "cat": "language", "q": "Γράψε τον πληθυντικό:\nτο βιβλίο → τα …", "a": ["βιβλία"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε τον πληθυντικό:\nη θάλασσα → οι …", "a": ["θάλασσες"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε τον πληθυντικό:\nο δρόμος → οι …", "a": ["δρόμοι"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε τον πληθυντικό:\nτο παιδί → τα …", "a": ["παιδιά"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε τον πληθυντικό:\nη μητέρα → οι …", "a": ["μητέρες"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε τον πληθυντικό:\nο μαθητής → οι …", "a": ["μαθητές"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε τον πληθυντικό:\nτο σπίτι → τα …", "a": ["σπίτια"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε τον πληθυντικό:\nη πόλη → οι …", "a": ["πόλεις"], "hint": "Τελειώνει σε -εις." },
+  { "lang": "el", "cat": "language", "q": "Γράψε τον πληθυντικό:\nο άνθρωπος → οι …", "a": ["άνθρωποι"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε τον πληθυντικό:\nτο δέντρο → τα …", "a": ["δέντρα"] },
+
+  // Αντίθετα
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nμεγάλος", "a": ["μικρός"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nψηλός", "a": ["κοντός"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nζεστός", "a": ["κρύος"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nγρήγορα", "a": ["αργά"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nανοίγω", "a": ["κλείνω"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nη μέρα", "a": ["νύχτα"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nπάνω", "a": ["κάτω"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nχαρούμενος", "a": ["λυπημένος", "στενοχωρημένος"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nάσπρο", "a": ["μαύρο"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nμπαίνω", "a": ["βγαίνω"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nπλούσιος", "a": ["φτωχός"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nγεμάτο", "a": ["άδειο"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nμπροστά", "a": ["πίσω"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το αντίθετο:\nη αρχή", "a": ["τέλος"] },
+
+  // Άρθρα
+  { "lang": "el", "cat": "language", "q": "Ποιο άρθρο ταιριάζει; (ο, η, το)\n___ ήλιος", "a": ["ο"] },
+  { "lang": "el", "cat": "language", "q": "Ποιο άρθρο ταιριάζει; (ο, η, το)\n___ θάλασσα", "a": ["η"] },
+  { "lang": "el", "cat": "language", "q": "Ποιο άρθρο ταιριάζει; (ο, η, το)\n___ βουνό", "a": ["το"] },
+  { "lang": "el", "cat": "language", "q": "Ποιο άρθρο ταιριάζει; (ο, η, το)\n___ καρέκλα", "a": ["η"] },
+  { "lang": "el", "cat": "language", "q": "Ποιο άρθρο ταιριάζει; (ο, η, το)\n___ ουρανός", "a": ["ο"] },
+  { "lang": "el", "cat": "language", "q": "Ποιο άρθρο ταιριάζει; (ο, η, το)\n___ μολύβι", "a": ["το"] },
+
+  // Συλλαβές
+  { "lang": "el", "cat": "language", "q": "Πόσες συλλαβές έχει η λέξη «θάλασσα»;", "a": ["3"], "hint": "Χτύπα παλαμάκια σε κάθε συλλαβή!" },
+  { "lang": "el", "cat": "language", "q": "Πόσες συλλαβές έχει η λέξη «σχολείο»;", "a": ["3"], "hint": "Χτύπα παλαμάκια σε κάθε συλλαβή!" },
+  { "lang": "el", "cat": "language", "q": "Πόσες συλλαβές έχει η λέξη «πεταλούδα»;", "a": ["4"], "hint": "Χτύπα παλαμάκια σε κάθε συλλαβή!" },
+  { "lang": "el", "cat": "language", "q": "Πόσες συλλαβές έχει η λέξη «αυτοκίνητο»;", "a": ["5"], "hint": "Χτύπα παλαμάκια σε κάθε συλλαβή!" },
+  { "lang": "el", "cat": "language", "q": "Πόσες συλλαβές έχει η λέξη «μήλο»;", "a": ["2"] },
+  { "lang": "el", "cat": "language", "q": "Πόσες συλλαβές έχει η λέξη «ελέφαντας»;", "a": ["4"], "hint": "Χτύπα παλαμάκια σε κάθε συλλαβή!" },
+  { "lang": "el", "cat": "language", "q": "Πόσες συλλαβές έχει η λέξη «ουρανός»;", "a": ["3"], "hint": "Το «ου» είναι ένας ήχος." },
+
+  // Αόριστος
+  { "lang": "el", "cat": "language", "q": "Συμπλήρωσε:\nΣήμερα γράφω. Χθες (εγώ) ___.", "a": ["έγραψα"] },
+  { "lang": "el", "cat": "language", "q": "Συμπλήρωσε:\nΣήμερα παίζω. Χθες (εγώ) ___.", "a": ["έπαιξα"] },
+  { "lang": "el", "cat": "language", "q": "Συμπλήρωσε:\nΣήμερα τρέχω. Χθες (εγώ) ___.", "a": ["έτρεξα"] },
+  { "lang": "el", "cat": "language", "q": "Συμπλήρωσε:\nΣήμερα διαβάζω. Χθες (εγώ) ___.", "a": ["διάβασα"] },
+  { "lang": "el", "cat": "language", "q": "Συμπλήρωσε:\nΣήμερα τρώω. Χθες (εγώ) ___.", "a": ["έφαγα"] },
+  { "lang": "el", "cat": "language", "q": "Συμπλήρωσε:\nΣήμερα πίνω. Χθες (εγώ) ___.", "a": ["ήπια"] },
+  { "lang": "el", "cat": "language", "q": "Συμπλήρωσε:\nΣήμερα βλέπω. Χθες (εγώ) ___.", "a": ["είδα"] },
+  { "lang": "el", "cat": "language", "q": "Συμπλήρωσε:\nΣήμερα πηγαίνω. Χθες (εγώ) ___.", "a": ["πήγα"] },
+  { "lang": "el", "cat": "language", "q": "Συμπλήρωσε:\nΣήμερα ζωγραφίζω. Χθες (εγώ) ___.", "a": ["ζωγράφισα"] },
+
+  // Υποκοριστικά
+  { "lang": "el", "cat": "language", "q": "Γράψε το υποκοριστικό (τη «μικρή» λέξη):\nτο σπίτι → το …", "a": ["σπιτάκι"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το υποκοριστικό (τη «μικρή» λέξη):\nο σκύλος → το …", "a": ["σκυλάκι"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το υποκοριστικό (τη «μικρή» λέξη):\nη γάτα → η …", "a": ["γατούλα", "γατίτσα", "γατάκι"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε το υποκοριστικό (τη «μικρή» λέξη):\nτο παιδί → το …", "a": ["παιδάκι"] },
+
+  // Ορθογραφία
+  { "lang": "el", "cat": "language", "q": "Ποια γράμματα λείπουν;\nτο σχολ__ο", "a": ["εί"], "hint": "Σκέψου πώς γράφεται η λέξη «σχολείο»." },
+  { "lang": "el", "cat": "language", "q": "Ποιο γράμμα λείπει;\nτο ψ_μί", "a": ["ω"] },
+  { "lang": "el", "cat": "language", "q": "Ποιο γράμμα λείπει;\nο κ_πος", "a": ["ή"] },
+  { "lang": "el", "cat": "language", "q": "Ποιο γράμμα λείπει;\nη φων_", "a": ["ή"] },
+  { "lang": "el", "cat": "language", "q": "Ποια γράμματα λείπουν;\nη θάλα__α", "a": ["σσ"] },
+  { "lang": "el", "cat": "language", "q": "Ποια γράμματα λείπουν;\nτο φύ__ο", "a": ["λλ"] },
+  { "lang": "el", "cat": "language", "q": "Ποιο γράμμα λείπει;\nη ελ_ά", "a": ["ι"] },
+
+  // Συνώνυμα
+  { "lang": "el", "cat": "language", "q": "Γράψε μια λέξη που σημαίνει το ίδιο:\nόμορφος", "a": ["ωραίος", "πανέμορφος"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε μια λέξη που σημαίνει το ίδιο:\nαρχίζω", "a": ["ξεκινάω", "ξεκινώ"] },
+  { "lang": "el", "cat": "language", "q": "Γράψε μια λέξη που σημαίνει το ίδιο:\nχαρούμενος", "a": ["ευτυχισμένος", "ευχαριστημένος", "χαρωπός"] },
+
+  // ===================== ΕΛΛΗΝΙΚΑ – ΛΟΓΙΚΗ =====================
+  { "lang": "el", "cat": "logic", "q": "Ποιο δεν ταιριάζει με τα άλλα;\nμήλο, μπανάνα, καρότο, πορτοκάλι", "a": ["καρότο"], "hint": "Τα τρία είναι φρούτα." },
+  { "lang": "el", "cat": "logic", "q": "Ποιο δεν ταιριάζει με τα άλλα;\nσκύλος, γάτα, καρέκλα, άλογο", "a": ["καρέκλα"] },
+  { "lang": "el", "cat": "logic", "q": "Ποιο δεν ταιριάζει με τα άλλα;\nκόκκινο, μπλε, τραπέζι, πράσινο", "a": ["τραπέζι"] },
+  { "lang": "el", "cat": "logic", "q": "Ποιο δεν ταιριάζει με τα άλλα;\nΔευτέρα, Τρίτη, Ιούνιος, Πέμπτη", "a": ["Ιούνιος"] },
+  { "lang": "el", "cat": "logic", "q": "Ποιος αριθμός δεν ταιριάζει;\n2, 4, 7, 8", "a": ["7"], "hint": "Σκέψου τους ζυγούς αριθμούς." },
+  { "lang": "el", "cat": "logic", "q": "Είμαι ένας αριθμός. Αν μου προσθέσεις 5, γίνομαι 12. Ποιος αριθμός είμαι;", "a": ["7"] },
+  { "lang": "el", "cat": "logic", "q": "Είμαι ένας αριθμός. Αν με διπλασιάσεις, γίνομαι 18. Ποιος αριθμός είμαι;", "a": ["9"] },
+  { "lang": "el", "cat": "logic", "q": "Πόσα πόδια έχουν μαζί 2 γάτες και 1 κότα;", "a": ["10"] },
+  { "lang": "el", "cat": "logic", "q": "Η μαμά της Μαρίας έχει τρία παιδιά: τον Νίκο, την Ελένη και … ποιο είναι το τρίτο παιδί;", "a": ["Μαρία"], "hint": "Ξαναδιάβασε την αρχή της ερώτησης!" },
+  { "lang": "el", "cat": "logic", "q": "Ποιος μήνας έρχεται μετά τον Μάρτιο;", "a": ["Απρίλιος", "Απρίλης"] },
+  { "lang": "el", "cat": "logic", "q": "Πόσα λεπτά έχει μισή ώρα;", "a": ["30"] },
+  { "lang": "el", "cat": "logic", "q": "Αίνιγμα: Έχει δόντια αλλά δεν τρώει. Τι είναι;", "a": ["χτένα", "τσατσάρα", "χτένι"], "hint": "Το χρησιμοποιείς στα μαλλιά." },
+  { "lang": "el", "cat": "logic", "q": "Αίνιγμα: Είναι γεμάτο τρύπες αλλά κρατάει νερό. Τι είναι;", "a": ["σφουγγάρι"], "hint": "Το χρησιμοποιείς στο μπάνιο ή για να πλύνεις πιάτα." },
+  { "lang": "el", "cat": "logic", "q": "Σε ένα δωμάτιο με 4 γωνίες κάθεται μία γάτα σε κάθε γωνία. Απέναντι από κάθε γάτα βλέπουμε 3 γάτες. Πόσες γάτες υπάρχουν στο δωμάτιο;", "a": ["4"], "hint": "Είναι κόλπο! Μέτρα τις γωνίες." },
+  { "lang": "el", "cat": "logic", "q": "Αν το Α είναι 1, το Β είναι 2 και το Γ είναι 3, ποιος αριθμός είναι το Ε;", "a": ["5"], "hint": "Α, Β, Γ, Δ, Ε…" },
+  { "lang": "el", "cat": "logic", "q": "Ο Γιώργος έχει 3 μήλα. Τρώει 1 και μετά αγοράζει άλλα 2. Πόσα μήλα έχει τώρα;", "a": ["4"] },
+  { "lang": "el", "cat": "logic", "q": "Ο μπαμπάς δουλεύει από τις 9 το πρωί μέχρι τις 3 το μεσημέρι. Πόσες ώρες δουλεύει;", "a": ["6"] },
+
+  // ===================== ENGLISH – LANGUAGE =====================
+  // Vocabulary
+  { "lang": "en", "cat": "language", "q": "What is «σκύλος» in English?", "a": ["dog"] },
+  { "lang": "en", "cat": "language", "q": "What is «γάτα» in English?", "a": ["cat"] },
+  { "lang": "en", "cat": "language", "q": "What is «μήλο» in English?", "a": ["apple"] },
+  { "lang": "en", "cat": "language", "q": "What is «σπίτι» in English?", "a": ["house", "home"] },
+  { "lang": "en", "cat": "language", "q": "What is «ήλιος» in English?", "a": ["sun"] },
+  { "lang": "en", "cat": "language", "q": "What is «νερό» in English?", "a": ["water"] },
+  { "lang": "en", "cat": "language", "q": "What is «βιβλίο» in English?", "a": ["book"] },
+  { "lang": "en", "cat": "language", "q": "What is «σχολείο» in English?", "a": ["school"] },
+  { "lang": "en", "cat": "language", "q": "What is «κόκκινο» in English?", "a": ["red"] },
+  { "lang": "en", "cat": "language", "q": "What is «μπλε» in English?", "a": ["blue"] },
+  { "lang": "en", "cat": "language", "q": "What is «πράσινο» in English?", "a": ["green"] },
+  { "lang": "en", "cat": "language", "q": "What is «κίτρινο» in English?", "a": ["yellow"] },
+  { "lang": "en", "cat": "language", "q": "What is «μητέρα» in English?", "a": ["mother", "mum", "mom", "mummy", "mommy"] },
+  { "lang": "en", "cat": "language", "q": "What is «πατέρας» in English?", "a": ["father", "dad", "daddy"] },
+  { "lang": "en", "cat": "language", "q": "What is «φίλος» in English?", "a": ["friend"] },
+  { "lang": "en", "cat": "language", "q": "What is «μπάλα» in English?", "a": ["ball"] },
+  { "lang": "en", "cat": "language", "q": "What is «δέντρο» in English?", "a": ["tree"] },
+  { "lang": "en", "cat": "language", "q": "What is «ψάρι» in English?", "a": ["fish"] },
+  { "lang": "en", "cat": "language", "q": "What is «πουλί» in English?", "a": ["bird"] },
+  { "lang": "en", "cat": "language", "q": "What is «αυτοκίνητο» in English?", "a": ["car"] },
+  { "lang": "en", "cat": "language", "q": "What is «μολύβι» in English?", "a": ["pencil"] },
+
+  // Numbers in words
+  { "lang": "en", "cat": "language", "q": "Write the number 7 in words.", "a": ["seven"] },
+  { "lang": "en", "cat": "language", "q": "Write the number 12 in words.", "a": ["twelve"] },
+  { "lang": "en", "cat": "language", "q": "Write the number 3 in words.", "a": ["three"] },
+  { "lang": "en", "cat": "language", "q": "Write the number 20 in words.", "a": ["twenty"] },
+  { "lang": "en", "cat": "language", "q": "Write the number 15 in words.", "a": ["fifteen"] },
+  { "lang": "en", "cat": "language", "q": "Write the number 9 in words.", "a": ["nine"] },
+  { "lang": "en", "cat": "language", "q": "Write the number 11 in words.", "a": ["eleven"] },
+
+  // Opposites
+  { "lang": "en", "cat": "language", "q": "Write the opposite:\nbig", "a": ["small", "little"] },
+  { "lang": "en", "cat": "language", "q": "Write the opposite:\nhot", "a": ["cold"] },
+  { "lang": "en", "cat": "language", "q": "Write the opposite:\nhappy", "a": ["sad", "unhappy"] },
+  { "lang": "en", "cat": "language", "q": "Write the opposite:\nup", "a": ["down"] },
+  { "lang": "en", "cat": "language", "q": "Write the opposite:\nfast", "a": ["slow"] },
+  { "lang": "en", "cat": "language", "q": "Write the opposite:\nopen", "a": ["closed", "close", "shut"] },
+  { "lang": "en", "cat": "language", "q": "Write the opposite:\nday", "a": ["night"] },
+  { "lang": "en", "cat": "language", "q": "Write the opposite:\nold", "a": ["new", "young"] },
+  { "lang": "en", "cat": "language", "q": "Write the opposite:\ntall", "a": ["short"] },
+  { "lang": "en", "cat": "language", "q": "Write the opposite:\nblack", "a": ["white"] },
+
+  // Plurals
+  { "lang": "en", "cat": "language", "q": "Write the plural:\none cat → two …", "a": ["cats"] },
+  { "lang": "en", "cat": "language", "q": "Write the plural:\none box → two …", "a": ["boxes"] },
+  { "lang": "en", "cat": "language", "q": "Write the plural:\none child → two …", "a": ["children"] },
+  { "lang": "en", "cat": "language", "q": "Write the plural:\none man → two …", "a": ["men"] },
+  { "lang": "en", "cat": "language", "q": "Write the plural:\none bus → two …", "a": ["buses"] },
+  { "lang": "en", "cat": "language", "q": "Write the plural:\none apple → two …", "a": ["apples"] },
+  { "lang": "en", "cat": "language", "q": "Write the plural:\none baby → two …", "a": ["babies"] },
+  { "lang": "en", "cat": "language", "q": "Write the plural:\none foot → two …", "a": ["feet"] },
+
+  // Grammar: am / is / are, has / have
+  { "lang": "en", "cat": "language", "q": "Fill in: am, is or are?\nI ___ a boy.", "a": ["am"] },
+  { "lang": "en", "cat": "language", "q": "Fill in: am, is or are?\nShe ___ my sister.", "a": ["is"] },
+  { "lang": "en", "cat": "language", "q": "Fill in: am, is or are?\nThey ___ happy.", "a": ["are"] },
+  { "lang": "en", "cat": "language", "q": "Fill in: am, is or are?\nWe ___ friends.", "a": ["are"] },
+  { "lang": "en", "cat": "language", "q": "Fill in: am, is or are?\nIt ___ a dog.", "a": ["is"] },
+  { "lang": "en", "cat": "language", "q": "Fill in: have or has?\nHe ___ a bike.", "a": ["has"] },
+  { "lang": "en", "cat": "language", "q": "Fill in: have or has?\nI ___ two brothers.", "a": ["have"] },
+
+  // Colours, days, months
+  { "lang": "en", "cat": "language", "q": "What colour is the sky?", "a": ["blue"] },
+  { "lang": "en", "cat": "language", "q": "What colour is grass?", "a": ["green"] },
+  { "lang": "en", "cat": "language", "q": "What colour is a banana?", "a": ["yellow"] },
+  { "lang": "en", "cat": "language", "q": "What colour is snow?", "a": ["white"] },
+  { "lang": "en", "cat": "language", "q": "Which day comes after Monday?", "a": ["Tuesday"] },
+  { "lang": "en", "cat": "language", "q": "Which day comes before Sunday?", "a": ["Saturday"] },
+  { "lang": "en", "cat": "language", "q": "Which day comes after Friday?", "a": ["Saturday"] },
+  { "lang": "en", "cat": "language", "q": "What is the first month of the year?", "a": ["January"] },
+  { "lang": "en", "cat": "language", "q": "How many days are in a week? Write the word.", "a": ["seven", "7"] },
+
+  // ===================== ENGLISH – LOGIC =====================
+  { "lang": "en", "cat": "logic", "q": "Which one does not belong?\napple, banana, carrot, orange", "a": ["carrot"], "hint": "Three of them are fruit." },
+  { "lang": "en", "cat": "logic", "q": "Which one does not belong?\ndog, cat, chair, horse", "a": ["chair"] },
+  { "lang": "en", "cat": "logic", "q": "Which one does not belong?\nred, blue, table, green", "a": ["table"] },
+  { "lang": "en", "cat": "logic", "q": "Which one does not belong?\nMonday, Tuesday, June, Thursday", "a": ["June"] },
+  { "lang": "en", "cat": "logic", "q": "Which number does not belong?\n2, 4, 7, 8", "a": ["7"], "hint": "Think about even numbers." },
+  { "lang": "en", "cat": "logic", "q": "I am a number. If you add 3 to me, you get 10. What number am I?", "a": ["7"] },
+  { "lang": "en", "cat": "logic", "q": "I am a number. If you double me, you get 16. What number am I?", "a": ["8"] },
+  { "lang": "en", "cat": "logic", "q": "How many legs do 2 cats and 1 chicken have altogether?", "a": ["10"] },
+  { "lang": "en", "cat": "logic", "q": "Which month comes after March?", "a": ["April"] },
+  { "lang": "en", "cat": "logic", "q": "How many minutes are in half an hour?", "a": ["30"] },
+  { "lang": "en", "cat": "logic", "q": "Riddle: What has hands but cannot clap?", "a": ["clock", "watch"], "hint": "It tells you the time." },
+  { "lang": "en", "cat": "logic", "q": "Riddle: What has keys but cannot open doors?", "a": ["piano", "keyboard"], "hint": "You can play music on it." },
+  { "lang": "en", "cat": "logic", "q": "If A is 1, B is 2 and C is 3, what number is E?", "a": ["5"], "hint": "A, B, C, D, E…" },
+  { "lang": "en", "cat": "logic", "q": "George has 3 apples. He eats 1 and then buys 2 more. How many apples does he have now?", "a": ["4"] },
+  { "lang": "en", "cat": "logic", "q": "A room has 4 corners. A cat sits in each corner. Each cat sees 3 other cats. How many cats are in the room?", "a": ["4"], "hint": "It's a trick! Count the corners." }
+]
